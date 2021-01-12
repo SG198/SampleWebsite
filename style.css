@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.mainNav{
+   display: flex;
+   padding:20px 100px;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   width: 100%;
+}
+
+.mainNav .logo{
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: 0.1em;
+}
+
+.mainNav{
+    box-shadow: 0 8px 32px 0 rgba(20, 80, 19, 0.37);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background:rgba(255, 255, 255, 0.15);
+}
+
+.mainNav .searchButton{
+    padding-left: 70px;
+    display: flex;
+}
+
+
+.searchButton .btnSearch{
+    padding:5px;
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.home .container .firstBox{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    top: 30%;
+    left: 40%;
+}
+
+
+
+.mainNav .logo span{
+    color: rgb(255, 10, 22);
+}
+
+.mainNav .navBar{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+
+.mainNav .navBar li{
+    padding-left: 25px;
+    list-style: none;
+}
+
+.mainNav .navBar li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.home .container{
+    background: url(images/header.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home .container .firstBox .text1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 42px;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
+}
+
+.home .container .firstBox .text2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 27px;
+    word-spacing: 0.1em;
+}
+
+.home .container .firstBox .btn1{
+    padding-top: 10px;
+}
+
+.home .container .firstBox .btnStyle{
+       border:1px solid gray;
+       background: orangered;
+       color: #fff;
+       padding: 5px;
+       text-transform: uppercase;
+       cursor: pointer;
+}
+
+.home .container .secondBox{
+position: relative;
+top: 25%;
+left: 5%;
+text-transform: uppercase;
+align-items: center;
+background-color: rgba(14, 13, 13, 0.5);
+width: 10%;
+backdrop-filter: blur(2px);
+-webkit-backdrop-filter: blur(2px);
+border: 1px solid rgba(255, 255, 255, 0.2);
+box-shadow: 0 8px 32px 0 rgba(20, 80, 19, 0.37);
+color: #fff;
+object-fit: cover;
+}
+
+.home .container .secondBox .Text{
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.home .container .secondBox .Text p{
+    background: #fff;
+    color: #111;
+    border: 1px solid #fff;
+    border-radius: 30%;
+}
+
+.home .container .secondBox a{
+     text-decoration: none;
+     color: #fff;
+}
+
+.home .container .secondBox .Text  h5{
+    border-bottom: 1px solid #fff;
+    padding: 20px;
+    font-weight: 300;
+}
+
+
+.showCase{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 20%;
+
+}
+
+.showCase .box1{
+    padding-left: 20px;
+}
+
+.showCase .box 
+{
+    background: green;
+    text-align: center;
+    align-items: center;
+    border: 3px solid green;
+}
+
+.showCase .box .smallBox{
+    background: #fff;
+}
+
+.showCase .box span{
+    color: rgb(156, 7, 37);
+}
+
+.showCase .box .smallBox .anotherText{
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.showCase .box .smallBox .image1{
+    height: 160px;
+    width: 218px;
+    padding: 0px 20px 20px 20px;
+    
+}
+
+.showCase .box .smallBox img{
+    height: 160px;
+    width: 200px;
+}
+
+
+.showCase .box .btnStyle{
+     background: orangered;
+     color: #fff;
+     padding: 5px;
+     text-transform: uppercase;
+}
+
+section{
+    padding-top: 50px;
+}
+
+.footr{
+    text-align: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+
+
